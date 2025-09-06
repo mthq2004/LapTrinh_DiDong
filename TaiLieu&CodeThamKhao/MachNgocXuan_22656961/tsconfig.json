@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",   // QUAN TRỌNG để tránh lỗi export
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true
+  }
+}
