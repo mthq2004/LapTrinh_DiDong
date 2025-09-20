@@ -1,7 +1,7 @@
 import React from 'react';
 import { SafeAreaView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
-export default function FirstScreen() {
+export default function Farme1a() {
   return (
     <SafeAreaView style={styles.container}>
       {/* Logo circle */}
@@ -35,7 +35,7 @@ export default function FirstScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0099FF', // xanh nhạt
+    backgroundColor: '#B3E5FC', // xanh nhạt
     alignItems: 'center',
     justifyContent: 'center',
     padding: 20,
