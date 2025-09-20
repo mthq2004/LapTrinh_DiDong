@@ -60,7 +60,7 @@ export default function App() {
   };
 
   const handleConfirm = () =>{
-    Alert.alert("Xác nhânj", `Bạn có chắc muốn đặt chỗ ${selectedSpot} này chứ?`, [
+    Alert.alert("Xác nhận", `Bạn có chắc muốn đặt chỗ ${selectedSpot} này chứ?`, [
       {text: "Đồng ý", 
         onPress: () => handleBooking()
       },
